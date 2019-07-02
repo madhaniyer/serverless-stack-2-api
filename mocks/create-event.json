@@ -1,0 +1,8 @@
+{
+    "body":"{\"content\":\"Whats up\", \"attachment\":\"hello.jpg\"}",
+    "requestContext" : {
+        "identity": {
+            "cognitoIdentityId": "maddy-mock"
+        }
+    }
+}

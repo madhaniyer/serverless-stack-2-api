@@ -1,0 +1,10 @@
+{
+    "pathParameters" : {
+        "id": "a8093390-9631-11e9-9dc0-633954b2fc70"
+    },
+    "requestContext": {
+        "identity": {
+            "cognitoIdentityId": "maddy-mock"
+        }
+    }
+}
