@@ -122,6 +122,18 @@ resources:
   # Cognito
   - ${file(resources/cognito-user-pool.yml)}
   - ${file(resources/cognito-identity-pool.yml)}
-  # identity pool  id us-east-2:f68e8c2c-a6ab-470d-bae0-fe3a77173650
-  # user pool id Pool Id us-east-2_WqPdbYHCZ
-  # App client id 6jv3dtb4dqd7tjsot96oq4uh7e
+
+
+#Stack Outputs
+#AttachmentsBucketName: notes-app-2-api-dev-attachmentsbucket-pahv9uo85zue
+#UserPoolClientId: arsiljqusr7f2trfqi27t65rk
+#UserPoolId: us-east-2_9hBrhOwTI
+#DeleteLambdaFunctionQualifiedArn: arn:aws:lambda:us-east-2:331911543547:function:notes-app-2-api-dev-delete:1
+#CreateLambdaFunctionQualifiedArn: arn:aws:lambda:us-east-2:331911543547:function:notes-app-2-api-dev-create:1
+#GetLambdaFunctionQualifiedArn: arn:aws:lambda:us-east-2:331911543547:function:notes-app-2-api-dev-get:1
+#UpdateLambdaFunctionQualifiedArn: arn:aws:lambda:us-east-2:331911543547:function:notes-app-2-api-dev-update:1
+#IdentityPoolId: us-east-2:78ebda4f-8195-48e5-9a8b-7f47494b78ac
+#ListLambdaFunctionQualifiedArn: arn:aws:lambda:us-east-2:331911543547:function:notes-app-2-api-dev-list:1
+#ServiceEndpoint: https://p4ohw762b9.execute-api.us-east-2.amazonaws.com/dev
+#ServerlessDeploymentBucketName: notes-app-2-api-dev-serverlessdeploymentbucket-9zkbtzbr7xrq
+
