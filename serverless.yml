@@ -117,7 +117,8 @@ resources:
   - ${file(resources/api-gateway-errors.yml)}
   # DynamoDB
   - ${file(resources/dynamodb-table.yml)}
-
+  # S3
+  - ${file(resources/s3-bucket.yml)}
   # identity pool  id us-east-2:f68e8c2c-a6ab-470d-bae0-fe3a77173650
   # user pool id Pool Id us-east-2_WqPdbYHCZ
   # App client id 6jv3dtb4dqd7tjsot96oq4uh7e
