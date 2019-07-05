@@ -9,3 +9,4 @@ script:
     - sls deploy  
     - echo 'Testing the APIs'
     - npm run test
+    - sls deploy --stage prod
