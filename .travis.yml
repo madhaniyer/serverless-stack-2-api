@@ -6,4 +6,6 @@ cache:
     - node_modules
 script: 
     - npm install -g serverless
-    - sls deploy
+    - sls deploy  
+    - echo 'Testing the APIs'
+    - npm run test
